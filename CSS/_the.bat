@@ -1,0 +1,1 @@
+sass -w input.scss output.css

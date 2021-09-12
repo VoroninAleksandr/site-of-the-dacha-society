@@ -1,0 +1,12 @@
+@mixin borders($color: $activ-color, $type: dashed, $width: 1px) {
+  border: $color $type $width;
+}
+@mixin grid($cols, $margin, $marginbottom) {
+  float: left;
+  margin-right: $margin;
+  margin-bottom: $marginbottom;
+  width: ((100% - ($cols - 1) * $margin) / $cols);
+  &:nth-child(#{$cols}n) {
+    margin-right: 0;
+  }
+}
