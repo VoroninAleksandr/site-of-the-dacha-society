@@ -110,6 +110,9 @@ body {
   width: 450px;
   height: 80px;
 }
+.leftcol a{
+  text-decoration: none;
+}
 
 #headerText {
   text-align: left;
