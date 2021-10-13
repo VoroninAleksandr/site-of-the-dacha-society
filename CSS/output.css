@@ -481,6 +481,9 @@ h4 {
 #feedback-form label {
   flex: 1;
 }
+#feedback-form label > span{
+  color: red;
+}
 #feedback-form input {
   flex: 3;
   padding: 0.5em;
@@ -615,7 +618,7 @@ h4 {
   float: left;
   margin-right: 1%;
   margin-bottom: 0%;
-  width: 49.5%;
+  width: 30%;  /*было 49.5% */
 }
 .about_us_place div:nth-child(2n) {
   margin-right: 0;

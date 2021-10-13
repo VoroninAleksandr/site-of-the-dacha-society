@@ -81,7 +81,7 @@
         <form action="/inc/contacts.php" enctype="multipart/form-data" method="POST" id="feedback-form">
           <ul>
             <li>
-              <label for="nameL">Имя *:</label>
+              <label for="nameL">Имя <span>*</span>:</label>
               <input type="text" name="nameL" id="nameL" required placeholder="например, Иван Иванович Иванов"
                 x-autocompletetype="name" class="border" />
             </li>
@@ -91,7 +91,7 @@
                 class="border" />
             </li>
             <li>
-              <label for="contactL">Email *:</label>
+              <label for="contactL">Email <span>*</span>:</label>
               <input type="email" name="contactL" id="contactL" required placeholder="например, ivan@yandex.ru"
                 x-autocompetetype="email" class="border" />
             </li>
@@ -106,7 +106,7 @@
               </div>
             </li>
             <li>
-              <label for="messageL">Сообщение *:</label>
+              <label for="messageL">Сообщение <span>*</span>:</label>
               <textarea name="messageL" id="messageL" required cols="30" rows="10" placeholder="ваше сообщение..."
                 class="border"></textarea>
             </li>
